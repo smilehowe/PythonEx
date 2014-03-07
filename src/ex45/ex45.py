@@ -1,0 +1,15 @@
+#coding:gbk
+
+from sofa import Sofa
+from bed import Bed
+
+sofa = Sofa()
+bed = Bed()
+
+sofa.print_define()
+sofa.print_classify("µÍ±³É³·¢")
+sofa.print_colour("ºìÉ«")
+
+bed.print_define()
+bed.print_classify("Æ½°å")
+bed.print_colour("°×·ã")
