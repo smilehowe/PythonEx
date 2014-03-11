@@ -2,7 +2,7 @@
 
 from furniture import Furniture
 
-class Bed(object):
+class Bed(Furniture):
     
     def __init__(self):
         self.furniture = Furniture()

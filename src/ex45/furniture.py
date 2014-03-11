@@ -8,8 +8,5 @@ class Furniture(object):
         print "又互相制约。由于家具是为了满足人们一定的物质需求和使用目的而设计与制作的，"
         print "因此家具还具有功能和外观形式方面的因素。"
     
-    def print_define(self):
-        pass
-    
     def print_colour(self):
         pass
